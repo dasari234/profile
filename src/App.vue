@@ -12,7 +12,7 @@ const sections = ref([
   { id: 'home', title: 'Home' },
   { id: 'about', title: 'About' },
   { id: 'skills', title: 'Skills' },
-  { id: 'services', title: 'Services' },
+  // { id: 'services', title: 'Services' },
   { id: 'contact', title: 'Contact' }
 ]);
 
@@ -223,7 +223,7 @@ onBeforeUnmount(() => {
     </section>
 
     <!-- My Services Section Start -->
-    <section class="services" id="services">
+    <!-- <section class="services" id="services">
       <div class="content">
         <div class="title"><span>My Services</span></div>
         <div class="boxes">
@@ -255,7 +255,7 @@ onBeforeUnmount(() => {
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact Me section Start -->
     <section class="contact" id="contact">
