@@ -33,6 +33,7 @@ const navHighlighter = () => {
     }
   });
 };
+
 const handleScroll = () => {
   // navHighlighter();
   if (document.documentElement.scrollTop > 250) {
@@ -200,22 +201,111 @@ onBeforeUnmount(() => {
               </div>
             </div> -->
           </div>
-          <div class="boxes">
-            <div class="box">
-              <div class="topic">HTML</div>
-              <div class="per">90%</div>
+          <div style="display: flex; flex-direction: column;">
+            <div class="skills-list">
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://img.icons8.com/color/144/000000/html-5--v1.png"
+                    alt="icon">
+                </div>
+              </div>
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://img.icons8.com/color/144/000000/css3.png" alt="icon">
+                </div>
+              </div>
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://img.icons8.com/color/144/000000/javascript.png"
+                    alt="icon">
+                </div>
+              </div>
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://img.icons8.com/color/144/000000/typescript.png"
+                    alt="icon">
+                </div>
+              </div>
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://img.icons8.com/color/144/000000/nodejs.png"
+                    alt="icon">
+                </div>
+              </div>
             </div>
-            <div class="box">
-              <div class="topic">CSS</div>
-              <div class="per">80%</div>
+            <div class="skills-list">
+              <div>
+                <div><img class="img-fluid skillsImg"
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                    alt="icon">
+                </div>
+              </div>
+
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://i.ibb.co/ZVh01dm/rsz-mong2.png" alt="icon"></div>
+              </div>
+
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://img.icons8.com/color/144/000000/redux.png"
+                    alt="icon">
+                </div>
+              </div>
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://i.postimg.cc/dt6gHbhP/icons8-docker-144-1.png"
+                    alt="icon">
+                </div>
+              </div>
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://img.icons8.com/fluent/144/000000/github.png"
+                    alt="icon">
+                </div>
+              </div>
+
             </div>
-            <div class="box">
-              <div class="topic">JavScript</div>
-              <div class="per">70%</div>
+            <div class="skills-list">
+              <div>
+                <div><img class="img-fluid skillsImg"
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="icon"></div>
+              </div>
+
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://img.icons8.com/color/144/000000/npm.png" alt="icon">
+                </div>
+              </div>
+
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://img.icons8.com/color/144/000000/material-ui.png"
+                    alt="icon">
+                </div>
+              </div>
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://i.ibb.co/zx0Tt9M/bootstrap.png" alt="icon"></div>
+              </div>
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://i.ibb.co/zs6B3yR/sass.png" alt="icon"></div>
+              </div>
             </div>
-            <div class="box">
-              <div class="topic">VueJS</div>
-              <div class="per">80%</div>
+            <div class="skills-list">
+              <div>
+                <div><img class="img-fluid skillsImg"
+                    src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="icon"></div>
+              </div>
+              <div>
+                <div><img class="img-fluid skillsImg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="icon"></div>
+              </div>
+
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+                    alt="icon"></div>
+              </div>
+
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://v2.vuejs.org/images/logo.svg"
+                    alt="icon"></div>
+              </div>
+
+              <div>
+                <div><img class="img-fluid skillsImg" src="https://pinia.vuejs.org/logo.svg"
+                    alt="icon"></div>
+              </div>
+
+            
             </div>
           </div>
         </div>

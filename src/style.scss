@@ -324,6 +324,17 @@ section {
         color: #4070f4;
       }
     }
+    .skills-list {
+      margin-left: 2rem;
+      display:flex; flex-direction: row; flex-wrap: wrap; gap: 2rem;
+      img {
+        width: 70px; height: 70px;
+        transition: all 0.3s ease;
+        &:hover {
+          scale: 1.2;
+        }
+      }
+    }
   }
 }
 
